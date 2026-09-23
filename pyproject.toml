@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scce-light"
+version = "0.1.0"
+description = "Lightweight SC-CE: selective classification via counterfactual explanations"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Valerio Bonsignori"}]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "scikit-learn",
+]
+
+[project.optional-dependencies]
+demo = ["matplotlib", "jupyter"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["scce_light"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
