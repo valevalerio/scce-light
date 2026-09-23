@@ -1,10 +1,15 @@
 # scce-light
 
+![Code size](https://img.shields.io/github/languages/code-size/valevalerio/scce-light) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![IEEE](https://img.shields.io/badge/IEEE-11570111-00629B.svg)](https://ieeexplore.ieee.org/document/8920138)
+
+
 Lightweight version of [SC-CE](https://github.com/clarapunzi/SC-CE), Selective Classification via Counterfactual Explanations:
 a model agnostic rejection-based abstention method for classifiers.
 
 **Why is it lightweight:** It has no submodules and no pre-computed artifacts. The only dependencies are `numpy`, `scipy`, `pandas` and `scikit-learn`. 
 
+<!-- ![NumPy](https://img.shields.io/badge/numpy-013243.svg?style=flat&logo=numpy&logoColor=white&labelColor=555) ![scipi](https://img.shields.io/badge/scipy-8CAAE6.svg?style=flat&logo=scipy&logoColor=white&labelColor=555) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white&labelColor=555) [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white&labelColor=555)](https://scikit-learn.org/)
+-->
 ## Intuition
 The main idea is that a classifier abstains when a small change to the input, found by a counterfactual generator, is enough to flip its prediction. 
 - Data focused
