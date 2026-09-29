@@ -1,6 +1,6 @@
 # scce-light
 
-![Code size](https://img.shields.io/github/languages/code-size/valevalerio/scce-light) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![IEEE](https://img.shields.io/badge/IEEE-11570111-00629B.svg)](https://ieeexplore.ieee.org/document/8920138)
+![Code size](https://img.shields.io/github/languages/code-size/valevalerio/scce-light) <!--[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)--> [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![IEEE](https://img.shields.io/badge/IEEE-11570111-00629B.svg)](https://ieeexplore.ieee.org/document/11570111)
 
 
 Lightweight version of [SC-CE](https://github.com/clarapunzi/SC-CE), Selective Classification via Counterfactual Explanations:
