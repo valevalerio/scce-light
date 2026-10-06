@@ -1,4 +1,18 @@
 """
+Copyright 2026 Valerio Bonsignori
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
 Selective classifiers: a probabilistic model plus a reject option.
 
 Both rejectors share the same mechanism: a score is computed for each instance
@@ -18,6 +32,7 @@ class _QuantileRejector:
     def __init__(self, model):
         self.model = model
         self.thresholds_ = None
+        self.coverages_ = None
 
     def _calibrate_scores(self, scores, coverages, use_gamma=False):
         scores = np.asarray(scores, dtype=float)
@@ -36,6 +51,7 @@ class _QuantileRejector:
         return self
 
     def _accept_scores(self, scores, coverage):
+        """Return a boolean mask indicating which instances are accepted at the given coverage."""  
         if self.thresholds_ is None:
             raise ValueError("The rejector is not calibrated yet. Call calibrate() first.")
         idx = np.flatnonzero(np.isclose(self.coverages_, coverage))
