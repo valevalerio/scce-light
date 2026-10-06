@@ -1,7 +1,5 @@
 # scce-light
-![Tests](https://github.com/valevalerio/scce-light/actions/workflows/test.yml/badge.svg)
-[![GitLab tests](https://gitlab.com/tango-ecosystem/tango-library/utils/scce-light/badges/master/pipeline.svg?key_text=GitLab%20tests&key_width=80)](https://gitlab.com/tango-ecosystem/tango-library/utils/scce-light/-/pipelines) ![Code size](https://img.shields.io/github/languages/code-size/valevalerio/scce-light) <!--[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)--> [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![IEEE](https://img.shields.io/badge/IEEE-11570111-00629B.svg)](https://ieeexplore.ieee.org/document/11570111)
-
+![Code size](https://img.shields.io/github/languages/code-size/valevalerio/scce-light) <!--[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)--> [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![IEEE](https://img.shields.io/badge/IEEE-11570111-00629B.svg)](https://ieeexplore.ieee.org/document/11570111) [![GitHub tests](https://github.com/valevalerio/scce-light/actions/workflows/tests.yml/badge.svg)](https://github.com/valevalerio/scce-light/actions/workflows/tests.yml)
 
 Lightweight version of [SC-CE](https://github.com/clarapunzi/SC-CE), Selective Classification via Counterfactual Explanations:
 a model agnostic rejection-based abstention method for classifiers.
@@ -37,7 +35,10 @@ A classifier learns a decision boundary (left). For a given instance, a sphere g
 ## Pip install
 To install the repo as a package, run either of the following commands:
 ```bash
+# Install from GitHub
 pip install git+https://github.com/valevalerio/scce-light.git   # no clone needed
+# Install from GitLab (equivalent)
+pip install git+https://gitlab.com/tango-ecosystem/tango-library/utils/scce-light.git  # no clone needed, from GitLab
 # or, after cloning/downloading anywhere:
 pip install -e path/to/scce-light
 ```

@@ -9,6 +9,7 @@ description = "Lightweight SC-CE: selective classification via counterfactual ex
 readme = "README.md"
 license = {text = "Apache-2.0"}
 authors = [{name = "Valerio Bonsignori"}]
+maintainers = [{name = "Valerio Bonsignori"}]
 requires-python = ">=3.11"
 dependencies = [
     "numpy>=1.23",
