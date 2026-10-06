@@ -1,6 +1,6 @@
 # scce-light
-
-[![GitHub tests](https://github.com/valevalerio/scce-light/actions/workflows/tests.yml/badge.svg)](https://github.com/valevalerio/scce-light/actions/workflows/tests.yml) [![GitLab tests](https://gitlab.com/tango-ecosystem/tango-library/utils/scce-light/badges/master/pipeline.svg?key_text=GitLab%20tests&key_width=80)](https://gitlab.com/tango-ecosystem/tango-library/utils/scce-light/-/pipelines) ![Code size](https://img.shields.io/github/languages/code-size/valevalerio/scce-light) <!--[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)--> [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![IEEE](https://img.shields.io/badge/IEEE-11570111-00629B.svg)](https://ieeexplore.ieee.org/document/11570111)
+![Tests](https://github.com/valevalerio/scce-light/actions/workflows/test.yml/badge.svg)
+[![GitLab tests](https://gitlab.com/tango-ecosystem/tango-library/utils/scce-light/badges/master/pipeline.svg?key_text=GitLab%20tests&key_width=80)](https://gitlab.com/tango-ecosystem/tango-library/utils/scce-light/-/pipelines) ![Code size](https://img.shields.io/github/languages/code-size/valevalerio/scce-light) <!--[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)--> [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![IEEE](https://img.shields.io/badge/IEEE-11570111-00629B.svg)](https://ieeexplore.ieee.org/document/11570111)
 
 
 Lightweight version of [SC-CE](https://github.com/clarapunzi/SC-CE), Selective Classification via Counterfactual Explanations:
